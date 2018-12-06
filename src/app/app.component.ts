@@ -5,6 +5,14 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'LivroAngular2';
+  title = 'Estudos Angular 2';
+  foto: string = 'favicon.ico';
+
+  msgAlerta(): void {
+    alert('Livro Angular 2');
+  }
+
 }
+
